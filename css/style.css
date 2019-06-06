@@ -131,7 +131,6 @@ body {
   max-width: 1220px;
   margin: 0 auto;
   padding: 0 20px;
-  min-height: 880;
 }
 .outer:before,
 .outer:after {
@@ -179,6 +178,9 @@ body {
 }
 .mobile-nav-on #wrap {
   left: 280px;
+}
+#main {
+  min-height: 660px;
 }
 @media screen and (min-width: 768px) {
   #main {
@@ -309,7 +311,7 @@ body {
   font-weight: bold;
 }
 #header {
-  height: 120px;
+  height: 88px;
   position: relative;
   border-bottom: 1px solid #ddd;
 }
@@ -1077,7 +1079,7 @@ a.article-title:hover {
 }
 #footer {
   background: #262a30;
-  padding: 30px 0;
+  padding: 25px 0;
   border-top: 1px solid #ddd;
   color: #999;
 }
