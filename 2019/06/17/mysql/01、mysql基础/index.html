@@ -7,18 +7,18 @@
   
   <title>01、mysql基础 | 金彦</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="01、mysql简介和基础Mysql 起源忽略。Mysql 分企业版和社区版，目前被Oracle收购了mysql -u root -p  02、SQL语句和函数https://www.w3cschool.cn/mariadb/">
+  <meta name="description" content="01、mysql简介和基础Mysql 起源忽略。Mysql 分企业版和社区版，目前被Oracle收购了 -1、Mysql 源代码的组织结构mysql 数据库是开源的，源代码也是开源的。   -2、mysql数据库安装 软件安装   密码修改   数据库mysql初始化  -3 mysql 登录mysql -u用户名 -p密码 -h数据库地址IP -P端口-4 修改mysql登录密码12alter">
 <meta name="keywords" content="mysql">
 <meta property="og:type" content="article">
 <meta property="og:title" content="01、mysql基础">
 <meta property="og:url" content="https://xingyankeji.github.io/2019/06/17/mysql/01、mysql基础/index.html">
 <meta property="og:site_name" content="金彦">
-<meta property="og:description" content="01、mysql简介和基础Mysql 起源忽略。Mysql 分企业版和社区版，目前被Oracle收购了mysql -u root -p  02、SQL语句和函数https://www.w3cschool.cn/mariadb/">
+<meta property="og:description" content="01、mysql简介和基础Mysql 起源忽略。Mysql 分企业版和社区版，目前被Oracle收购了 -1、Mysql 源代码的组织结构mysql 数据库是开源的，源代码也是开源的。   -2、mysql数据库安装 软件安装   密码修改   数据库mysql初始化  -3 mysql 登录mysql -u用户名 -p密码 -h数据库地址IP -P端口-4 修改mysql登录密码12alter">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-09-02T05:42:50.500Z">
+<meta property="og:updated_time" content="2019-09-02T06:19:13.576Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="01、mysql基础">
-<meta name="twitter:description" content="01、mysql简介和基础Mysql 起源忽略。Mysql 分企业版和社区版，目前被Oracle收购了mysql -u root -p  02、SQL语句和函数https://www.w3cschool.cn/mariadb/">
+<meta name="twitter:description" content="01、mysql简介和基础Mysql 起源忽略。Mysql 分企业版和社区版，目前被Oracle收购了 -1、Mysql 源代码的组织结构mysql 数据库是开源的，源代码也是开源的。   -2、mysql数据库安装 软件安装   密码修改   数据库mysql初始化  -3 mysql 登录mysql -u用户名 -p密码 -h数据库地址IP -P端口-4 修改mysql登录密码12alter">
   
   
     <link rel="icon" href="/favicon.png">
@@ -83,13 +83,21 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="01、mysql简介和基础"><a href="#01、mysql简介和基础" class="headerlink" title="01、mysql简介和基础"></a>01、mysql简介和基础</h2><pre><code>Mysql 起源忽略。Mysql 分企业版和社区版，目前被Oracle收购了</code></pre><p>mysql -u root -p </p>
+        <h2 id="01、mysql简介和基础"><a href="#01、mysql简介和基础" class="headerlink" title="01、mysql简介和基础"></a>01、mysql简介和基础</h2><p>Mysql 起源忽略。Mysql 分企业版和社区版，目前被Oracle收购了</p>
+<h3 id="1、Mysql-源代码的组织结构"><a href="#1、Mysql-源代码的组织结构" class="headerlink" title="-1、Mysql 源代码的组织结构"></a>-1、Mysql 源代码的组织结构</h3><p>mysql 数据库是开源的，源代码也是开源的。  </p>
+<h3 id="2、mysql数据库安装"><a href="#2、mysql数据库安装" class="headerlink" title="-2、mysql数据库安装"></a>-2、mysql数据库安装</h3><ul>
+<li>软件安装  </li>
+<li>密码修改  </li>
+<li>数据库mysql初始化  <h3 id="3-mysql-登录"><a href="#3-mysql-登录" class="headerlink" title="-3 mysql 登录"></a>-3 mysql 登录</h3>mysql -u用户名 -p密码 -h数据库地址IP -P端口<h3 id="4-修改mysql登录密码"><a href="#4-修改mysql登录密码" class="headerlink" title="-4 修改mysql登录密码"></a>-4 修改mysql登录密码</h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">alter</span> <span class="keyword">user</span> <span class="string">'root'</span>@<span class="string">'localhost'</span> <span class="keyword">identified</span> <span class="keyword">by</span> <span class="string">'newpwd'</span>;</span><br><span class="line">'root'@'localhost' 和 'root'@'127.0.0.1' 不是一个用户，可以有不同的密码。</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
 <h2 id="02、SQL语句和函数"><a href="#02、SQL语句和函数" class="headerlink" title="02、SQL语句和函数"></a>02、SQL语句和函数</h2><p><a href="https://www.w3cschool.cn/mariadb/" target="_blank" rel="noopener">https://www.w3cschool.cn/mariadb/</a></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://xingyankeji.github.io/2019/06/17/mysql/01、mysql基础/" data-id="ck01zcd6x0004a63rvivzspk2" class="article-share-link">分享</a>
+      <a data-url="https://xingyankeji.github.io/2019/06/17/mysql/01、mysql基础/" data-id="ck020mz8r0004nq3r7144d0n5" class="article-share-link">分享</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/mysql/">mysql</a></li></ul>
