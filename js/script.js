@@ -51,17 +51,7 @@
         return;
       }
     } else {
-      var html = [
-        '<div id="' + id + '" class="article-share-box">',
-          '<input class="article-share-input" value="' + url + '">',
-          '<div class="article-share-links">',
-            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
-            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
-            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
-            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
-          '</div>',
-        '</div>'
-      ].join('');
+      var html = '<div class="bdsharebuttonbox bdshare-button-style0-16" data-bd-bind="1524625953372" style="position: absolute;right: 50px;"> <a href="#" class="bds_more" data-cmd="more"></a> <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a> <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a> <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a> <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a> </div>';
 
       var box = $(html);
 
