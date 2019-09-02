@@ -5,18 +5,18 @@
   
   <title>01、mysql基础 | 金彦</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="01、mysql简介和基础Mysql 起源忽略。Mysql 分企业版和社区版，目前被Oracle收购了 -1、Mysql 源代码的组织结构mysql 数据库是开源的，源代码也是开源的。   -2、mysql数据库安装 软件安装   密码修改   数据库mysql初始化  -3 mysql 登录mysql -u用户名 -p密码 -h数据库地址IP -P端口-4 修改mysql登录密码12alter">
+  <meta name="description" content="01、mysql简介和基础Mysql 起源忽略。Mysql 分企业版和社区版，目前被Oracle收购了 -1、Mysql 源代码的组织结构mysql 数据库是开源的，源代码也是开源的。   -2、mysql数据库安装 软件安装   密码修改   数据库mysql初始化    -3 mysql 登录mysql -u用户名 -p密码 -h数据库地址IP -P端口 -4 修改mysql登录密码12alt">
 <meta name="keywords" content="mysql">
 <meta property="og:type" content="article">
 <meta property="og:title" content="01、mysql基础">
 <meta property="og:url" content="https://xingyankeji.github.io/2019/06/17/mysql/01、mysql基础/index.html">
 <meta property="og:site_name" content="金彦">
-<meta property="og:description" content="01、mysql简介和基础Mysql 起源忽略。Mysql 分企业版和社区版，目前被Oracle收购了 -1、Mysql 源代码的组织结构mysql 数据库是开源的，源代码也是开源的。   -2、mysql数据库安装 软件安装   密码修改   数据库mysql初始化  -3 mysql 登录mysql -u用户名 -p密码 -h数据库地址IP -P端口-4 修改mysql登录密码12alter">
+<meta property="og:description" content="01、mysql简介和基础Mysql 起源忽略。Mysql 分企业版和社区版，目前被Oracle收购了 -1、Mysql 源代码的组织结构mysql 数据库是开源的，源代码也是开源的。   -2、mysql数据库安装 软件安装   密码修改   数据库mysql初始化    -3 mysql 登录mysql -u用户名 -p密码 -h数据库地址IP -P端口 -4 修改mysql登录密码12alt">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-09-02T09:01:20.291Z">
+<meta property="og:updated_time" content="2019-09-02T09:03:59.745Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="01、mysql基础">
-<meta name="twitter:description" content="01、mysql简介和基础Mysql 起源忽略。Mysql 分企业版和社区版，目前被Oracle收购了 -1、Mysql 源代码的组织结构mysql 数据库是开源的，源代码也是开源的。   -2、mysql数据库安装 软件安装   密码修改   数据库mysql初始化  -3 mysql 登录mysql -u用户名 -p密码 -h数据库地址IP -P端口-4 修改mysql登录密码12alter">
+<meta name="twitter:description" content="01、mysql简介和基础Mysql 起源忽略。Mysql 分企业版和社区版，目前被Oracle收购了 -1、Mysql 源代码的组织结构mysql 数据库是开源的，源代码也是开源的。   -2、mysql数据库安装 软件安装   密码修改   数据库mysql初始化    -3 mysql 登录mysql -u用户名 -p密码 -h数据库地址IP -P端口 -4 修改mysql登录密码12alt">
   
   
     <link rel="icon" href="/favicon.png">
@@ -83,10 +83,11 @@
 <h3 id="2、mysql数据库安装"><a href="#2、mysql数据库安装" class="headerlink" title="-2、mysql数据库安装"></a>-2、mysql数据库安装</h3><ul>
 <li>软件安装  </li>
 <li>密码修改  </li>
-<li>数据库mysql初始化  <h3 id="3-mysql-登录"><a href="#3-mysql-登录" class="headerlink" title="-3 mysql 登录"></a>-3 mysql 登录</h3>mysql -u用户名 -p密码 -h数据库地址IP -P端口<h3 id="4-修改mysql登录密码"><a href="#4-修改mysql登录密码" class="headerlink" title="-4 修改mysql登录密码"></a>-4 修改mysql登录密码</h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">alter</span> <span class="keyword">user</span> <span class="string">'root'</span>@<span class="string">'localhost'</span> <span class="keyword">identified</span> <span class="keyword">by</span> <span class="string">'newpwd'</span>;</span><br><span class="line">'root'@'localhost' 和 'root'@'127.0.0.1' 不是一个用户，可以有不同的密码。</span><br></pre></td></tr></table></figure>
-
-</li>
+<li>数据库mysql初始化  </li>
 </ul>
+<h3 id="3-mysql-登录"><a href="#3-mysql-登录" class="headerlink" title="-3 mysql 登录"></a>-3 mysql 登录</h3><p>mysql -u用户名 -p密码 -h数据库地址IP -P端口</p>
+<h3 id="4-修改mysql登录密码"><a href="#4-修改mysql登录密码" class="headerlink" title="-4 修改mysql登录密码"></a>-4 修改mysql登录密码</h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">alter</span> <span class="keyword">user</span> <span class="string">'root'</span>@<span class="string">'localhost'</span> <span class="keyword">identified</span> <span class="keyword">by</span> <span class="string">'newpwd'</span>;</span><br><span class="line">'root'@'localhost' 和 'root'@'127.0.0.1' 不是一个用户，可以有不同的密码。</span><br></pre></td></tr></table></figure>
+
 <h2 id="02、Mysql-存储引擎"><a href="#02、Mysql-存储引擎" class="headerlink" title="02、Mysql 存储引擎"></a>02、Mysql 存储引擎</h2><ul>
 <li>MyISAM</li>
 </ul>
@@ -115,7 +116,7 @@
       
     </div>
     <footer class="article-footer">
-      <!-- <a data-url="https://xingyankeji.github.io/2019/06/17/mysql/01、mysql基础/" data-id="ck026fd3u0001up3r1tuyt4z3" class="article-share-link">分享</a> -->
+      <!-- <a data-url="https://xingyankeji.github.io/2019/06/17/mysql/01、mysql基础/" data-id="ck026gl7w0001nk3rsdz8dxke" class="article-share-link">分享</a> -->
       
       
         <span style="float:left;font:bold">标签 :
